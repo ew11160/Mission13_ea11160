@@ -1,8 +1,7 @@
-//put something in here later
-
 // bring in the data
+import React from 'react';
 import { useState } from 'react';
-import data from './MovieData.json';
+import data from '../MovieData.json';
 
 // create new variable to convert our MovieData (name of the json) to usable data
 const moviedatasample = data.MovieData;
